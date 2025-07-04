@@ -217,6 +217,173 @@ main {
   font-size: 60px;
   color: brown;
 }
+.menu-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-container::before {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2c2c2c;
+}
+
+.menu-section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #2c2c2c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border-bottom: 2px dotted #ccc;
+}
+
+.item-name {
+  font-size: 1.1em;
+  color: #2c2c2c;
+  font-weight: 500;
+}
+
+.item-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+.special-section {
+  background: rgba(105, 181, 120, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.special-section .section-title {
+  text-align: right;
+  color: #2c2c2c;
+}
+
+.special-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 8px 0;
+}
+
+.special-price {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #2c2c2c;
+  min-width: 60px;
+}
+
+.special-name {
+  font-size: 1em;
+  color: #2c2c2c;
+  text-align: right;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.dots {
+  flex: 1;
+  border-bottom: 2px dotted #ccc;
+  margin: 0 15px;
+}
+
+.menu-container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.section-title {
+  font-size: 1.5em;
+}
+
+.menu-item {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.item-price {
+  margin-top: 5px;
+}
+
+.special-item {
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.special-price {
+  margin-bottom: 5px;
+}
+
+.dots {
+  display: none;
+}
+.details {
+  font-size: 20px;
+}
+.connect {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+input {
+  outline-color: aqua;
+  width: 80%;
+  height: 20px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+button {
+  display: block;
+  width: 50%;
+  background-color: palevioletred;
+  color: #010101;
+  padding: 10px 20px;
+  border: none;
+}
+button:hover {
+  background-color: bisque;
+}
 footer {
   background-color: burlywood;
   height: 200px;
