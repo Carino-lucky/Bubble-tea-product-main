@@ -125,6 +125,7 @@ main {
   position: relative;
 }
 .time h1 {
+  color: white;
   font-size: 50px;
   z-index: 1;
 }
