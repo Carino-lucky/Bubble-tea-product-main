@@ -402,3 +402,120 @@ footer ul {
   gap: 14px;
   list-style: none;
 }
+@media (max-width: 1200px) {
+  body {
+    background-color: rgba(0, 128, 128, 0.062);
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: plum;
+  }
+  header {
+    padding: 20px;
+    align-items: center;
+  }
+  header a {
+    padding: 12px;
+  }
+  .hero {
+    padding: 20px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+  .btn-element {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+  }
+  .Bite {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .Bite h1 {
+    text-align: center;
+  }
+  .relax {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  footer {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+body {
+  animation: slide-in-from-left 1s linear;
+  animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.hero h1,
+.hero h4,
+.hero button,
+.hero p {
+  animation: slide-in-from-left 1s linear;
+  animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.Bite {
+  animation: slide-in-from-right 1s linear;
+}
+.time {
+  animation: slideIn;
+  animation-timeline: view();
+}
+.images {
+  animation: slideIn;
+  animation-timeline: view();
+  animation-range: 0% 50%;
+}
+.more {
+  animation: slideIn;
+  animation-timeline: view();
+}
+.real h1 {
+  animation: slideIn;
+  animation-timeline: view();
+}
+.love {
+  animation: slideIn;
+  animation-timeline: view();
+}
+@keyframes slide-in-from-up {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-from-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-from-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
