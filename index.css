@@ -81,6 +81,10 @@ main {
 .hero h1 {
   font-size: 60px;
 }
+.hero h4 {
+  font-size: 20px;
+  color: brown;
+}
 .hero p {
   font-size: 18px;
 }
@@ -98,6 +102,10 @@ main {
 .Bite h1 {
   font-size: 60px;
 }
+.Bite h4 {
+  font-size: 20px;
+  color: brown;
+}
 .relax {
   display: flex;
   align-items: center;
@@ -108,6 +116,10 @@ main {
 }
 .relax h1 {
   font-size: 60px;
+}
+.relax h4 {
+  font-size: 20px;
+  color: brown;
 }
 .time {
   text-align: center;
@@ -409,14 +421,16 @@ footer ul {
 }
 @media (max-width: 768px) {
   body {
-    background-color: plum;
+    background-color: rgba(221, 160, 221, 0.5);
   }
-  header {
-    padding: 20px;
+  header a,
+  header ul {
+    padding-right: 10px;
+    padding-left: 5px;
+    flex-flow: column nowrap;
+    align-content: center;
     align-items: center;
-  }
-  header a {
-    padding: 12px;
+    justify-items: space-around;
   }
   .hero {
     padding: 20px;
@@ -443,9 +457,14 @@ footer ul {
     flex-direction: column-reverse;
     padding: 20px;
   }
-  footer {
-    flex-direction: column;
-    gap: 40px;
+  footer a,
+  footer ul {
+    padding-right: 10px;
+    padding-left: 5px;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    justify-items: space-around;
   }
 }
 body {
