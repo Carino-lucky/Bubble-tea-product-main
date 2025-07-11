@@ -483,15 +483,7 @@ body {
   animation-timeline: view();
   animation-range: 0% 50%;
 }
-.more {
-  animation: slideIn;
-  animation-timeline: view();
-}
 .real h1 {
-  animation: slideIn;
-  animation-timeline: view();
-}
-.love {
   animation: slideIn;
   animation-timeline: view();
 }
