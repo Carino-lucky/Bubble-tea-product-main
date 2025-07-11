@@ -459,6 +459,10 @@ footer ul {
     flex-direction: column-reverse;
     padding: 20px;
   }
+  .more {
+    font-size: 20px;
+    flex-direction: column;
+  }
 }
 body {
   animation: slide-in-from-left 1s linear;
