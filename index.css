@@ -455,15 +455,15 @@ footer ul {
   .Bite h1 {
     text-align: center;
   }
-}
-.relax {
-  flex-direction: column-reverse;
-  padding: 20px;
-}
-.more {
-  font-size: 10px;
-  flex-direction: column;
-  padding-left: 0px;
+  .relax {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .more {
+    font-size: 20px;
+    flex-direction: column;
+    padding-left: 0px;
+  }
 }
 body {
   animation: slide-in-from-left 1s linear;
